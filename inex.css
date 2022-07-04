@@ -1,0 +1,43 @@
+html {
+  background-color: #a8e4a0;
+  scroll-behavior: smooth;
+}
+body div {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+/*========Header============*/
+#head {
+  height: fit-content;
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#head .head_mn {
+  height: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+#head .mn_info {
+  margin-top: 3%;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.mn_info {
+  font-size: 150%;
+}
+.dd_info {
+  width: 180px;
+  height: fit-content;
+  text-align: center;
+}
