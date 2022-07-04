@@ -12,6 +12,7 @@ body div {
 #name {
   width: 20%;
   height: 100%;
+  text-align: center;
 }
 #info {
   margin-top: 6%;
@@ -41,4 +42,22 @@ body div {
 #open {
   width: 15%;
   height: 100%;
+  text-align: center;
+}
+#name h2 {
+  color: #ffef00;
+  font-size: 250%;
+  text-align: center;
+}
+#name p {
+  color: #ffef00;
+  font-size: 150%;
+}
+#open h2 {
+  color: #ffef00;
+  font-size: 250%;
+}
+#open p {
+  color: #ffef00;
+  font-size: 150%;
 }
