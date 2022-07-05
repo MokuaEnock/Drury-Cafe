@@ -128,7 +128,7 @@ main {
 #section2 {
   margin-top: 5%;
   width: 100%;
-  height: 800px;
+  height: 1200px;
   margin-bottom: 10%;
 }
 #section2 h2 {
@@ -137,15 +137,13 @@ main {
 }
 #div_sect3 {
   width: 100%;
-  height: 750px;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
 }
-.dd_sect3 {
-  height: 100%;
-}
+
 .dd_sect3 p {
   padding-left: 3%;
   padding-right: 3%;
@@ -168,6 +166,12 @@ main {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+}
+.sect2_info div {
+  width: 30%;
+  background-color: #ffef00;
+  border-radius: 10px;
+  box-shadow: grey;
 }
 .order_b {
   height: 50px;
