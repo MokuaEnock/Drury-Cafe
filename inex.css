@@ -124,7 +124,8 @@ html {
 #section2 {
   margin-top: 5%;
   width: 100%;
-  height: 700px;
+  height: fit-content;
+  margin-bottom: 10%;
 }
 #section2 h2 {
   text-align: center;
@@ -132,4 +133,24 @@ html {
 }
 #div_sect3 {
   width: 100%;
+  height: 600px;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.dd_sect3 {
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 100%;
+}
+.dd_img1 {
+  width: 100%;
+  height: 50%;
+}
+.dd_sect3 h3 {
+  text-align: center;
+  font-size: 160%;
+  font-weight: 800;
 }
