@@ -124,7 +124,7 @@ html {
 #section2 {
   margin-top: 5%;
   width: 100%;
-  height: fit-content;
+  height: 800px;
   margin-bottom: 10%;
 }
 #section2 h2 {
@@ -133,17 +133,18 @@ html {
 }
 #div_sect3 {
   width: 100%;
-  height: 600px;
-  height: max-content;
+  height: 750px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
 }
 .dd_sect3 {
+  height: 100%;
+}
+.dd_sect3 p {
   padding-left: 3%;
   padding-right: 3%;
-  height: 100%;
 }
 .dd_img1 {
   width: 100%;
@@ -153,4 +154,30 @@ html {
   text-align: center;
   font-size: 160%;
   font-weight: 800;
+}
+.sect2_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.order_b {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
+.order_b button {
+  height: 100%;
+  width: 60%;
+  font-size: 150%;
+  border-radius: 10px;
+  background-color: black;
+  color: #ffef00;
+  font-weight: 600;
+}
+.order_b button:hover {
+  color: black;
+  background-color: #ffef00;
+  animation: pulsate 5s ease-in-out;
 }
